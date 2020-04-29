@@ -2,6 +2,7 @@
 //THEY SHOULD NOT BE USED FOR ANY SERIOUS CRYPTOGRAPHY UNLESS
 //YOU WANT SENSITIVE DATA TO BE ACCESSED BY UNAUTHORIZED USERS
 
+//source: https://www.geeksforgeeks.org/how-to-create-hash-from-string-in-javascript/
 function hash(string_input){
   let hash = 5059;
   if(string_input.length == 0) return hash;
@@ -12,6 +13,7 @@ function hash(string_input){
   }
   return hash;
 }
+//my salting function
 function hash_and_salt(text, salt){
   debugger;
   input_to_salt = text + salt;
