@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="ProfilePage.css">
     <meta charset="utf-8">
     <title>Log in</title>
   </head>
   <body>
+    <script src="alert_input.js"></script>
     <!--#include file="include_head.html" -->
     <!-- page unique contents -->
+    <div class = "background">
+      <div class="flex-container" id="login-box">
+          <h2>Please sign in:</h2>
+          <form name="login_form" class="login-form" onsubmit="show_input()" method="post">
+            <label for="user">Username</label>
+            <input type="text" id="user" name="user"></input>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"></input>
+            <input type="submit" value="Log in"></input>
+          </form>
+      </div>
+      <div class = "flex-container" id="not-a-member">
+        <p>Not a member?</p>
+        <button id="create-acc-btn">Create an account!</button>
+      </div>
+    </div>
     <!--#include file="include_foot.html" -->
   </body>
 </html>
