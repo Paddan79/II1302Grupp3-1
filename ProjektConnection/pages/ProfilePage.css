@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: lightblue;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.profile-photo {
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+    padding: 30px 20px 70px 20px;
+    margin: 20px 0px 0px 0px;
+    background-color: rgb(80, 104, 170);
+}
+.personal-information {
+    width: 40%;
+    padding: 30px 20px 70px 20px;
+    margin: 43px;
+    background-color: rgb(80, 104, 170);
+}
+
+#login-box{
+    display: flex; 
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(80, 104, 170);
+    width: 100%;
+}
+#not-a-member{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(80, 104, 170);
+    width:100%;
+}
+
+.change-password {
+    width: 40%;
+    padding: 30px 20px 70px 20px;
+    margin: 43px;
+    background-color: rgb(80, 104, 170);
+}
+.status {
+    width: 40%;
+    margin: 20px 0px 0px 0px;
+    border-left: none;
+    background-color: rgb(80, 104, 170);
+}
+.status button {
+    float: right;
+    margin: 30px ;
+}
+.overlap {
+    display: inline-block;
+}
+input {
+    display: block;
+}
+h1 {
+    border-bottom: thin solid darkblue;
+}
+h3 {
+    border-bottom: thin solid darkblue;
+    margin: 30px;
+}
+img {
+    margin: 20px 50px;
+    border: 2px solid black;
+}
+p {
+    margin: 30px;
+}
+.profile-photo span {
+    margin: 80px;
+}
